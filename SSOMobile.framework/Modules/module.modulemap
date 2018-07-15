@@ -1,0 +1,11 @@
+framework module SSOMobile {
+  umbrella header "SSOMobile.h"
+
+  export *
+  module * { export * }
+}
+
+module SSOMobile.Swift {
+    header "SSOMobile-Swift.h"
+    requires objc
+}
